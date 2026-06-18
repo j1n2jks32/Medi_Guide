@@ -1,0 +1,40 @@
+t=2026-04-11T11:51:34+0530 lvl=info msg="no configuration paths supplied"
+t=2026-04-11T11:51:34+0530 lvl=info msg="using configuration at default config path" path=C:\\Users\\rishi\\AppData\\Local/ngrok/ngrok.yml
+t=2026-04-11T11:51:34+0530 lvl=info msg="open config file" path=C:\\Users\\rishi\\AppData\\Local\\ngrok\\ngrok.yml err=nil
+t=2026-04-11T11:51:34+0530 lvl=info msg="FIPS 140 mode" enabled=false
+t=2026-04-11T11:51:34+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2026-04-11T11:51:35+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2026-04-11T11:51:35+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2026-04-11T11:51:35+0530 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:5000 url=https://conidian-proamateur-georgie.ngrok-free.dev
+t=2026-04-11T11:51:35+0530 lvl=info msg="update available" obj=updater
+t=2026-04-11T11:51:39+0530 lvl=info msg=start pg=/api/tunnels id=0b22b7fb3b5fdcfa
+t=2026-04-11T11:51:39+0530 lvl=info msg=end pg=/api/tunnels id=0b22b7fb3b5fdcfa status=200 dur=8.3651ms
+t=2026-04-11T11:58:42+0530 lvl=info msg="join connections" obj=join id=776c0f0f9892 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T11:58:42+0530 lvl=info msg="join connections" obj=join id=562c7d3d95ce l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T11:58:42+0530 lvl=info msg="join connections" obj=join id=317d0e0f219a l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T11:58:42+0530 lvl=info msg="join connections" obj=join id=48b41cda0a35 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:08+0530 lvl=info msg="join connections" obj=join id=bfad2724e6ee l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:09+0530 lvl=info msg="join connections" obj=join id=f915b8ab911d l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:10+0530 lvl=info msg="join connections" obj=join id=3edd70fcbe69 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:10+0530 lvl=info msg="join connections" obj=join id=c2ec7b9cc5be l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:18+0530 lvl=info msg="join connections" obj=join id=32bc6f1c9e17 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:24+0530 lvl=info msg="join connections" obj=join id=3cabcda8359b l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:24+0530 lvl=info msg="join connections" obj=join id=fca474d851ef l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:25+0530 lvl=info msg="join connections" obj=join id=8d2875c29e2d l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:25+0530 lvl=info msg="join connections" obj=join id=8ba334512c31 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:25+0530 lvl=info msg="join connections" obj=join id=d526e5375532 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:25+0530 lvl=info msg="join connections" obj=join id=3e3a42e2b887 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:48+0530 lvl=info msg="join connections" obj=join id=84ba70aa0d27 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:48+0530 lvl=info msg="join connections" obj=join id=6c3961e13969 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:49+0530 lvl=info msg="join connections" obj=join id=9d057fcd675d l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:49+0530 lvl=info msg="join connections" obj=join id=c04102ae9089 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:53+0530 lvl=info msg="join connections" obj=join id=1003bc21fb05 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:53+0530 lvl=info msg="join connections" obj=join id=e7fb202f7e20 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:53+0530 lvl=info msg="join connections" obj=join id=87f9265e5135 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:00:57+0530 lvl=info msg="join connections" obj=join id=b4214f92931d l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:02:55+0530 lvl=info msg="join connections" obj=join id=d0448b48d605 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:02:56+0530 lvl=info msg="join connections" obj=join id=dd25e8717967 l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:02:56+0530 lvl=info msg="join connections" obj=join id=6e0222c35aaa l=127.0.0.1:5000 r=[2409:40f2:40:5fae:fc14:be8f:e17:2108]:57214
+t=2026-04-11T12:16:56+0530 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2026-04-11T12:16:56+0530 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2026-04-11T12:16:56+0530 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=08a449e13bc9 err="reconnecting session closed"

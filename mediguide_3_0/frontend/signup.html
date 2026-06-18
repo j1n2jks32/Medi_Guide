@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MediGuide User Signup</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#2b9cff,#5dc3ff);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+.card{
+    width:100%;
+    max-width:440px;
+    background:rgba(255,255,255,0.96);
+    border-radius:14px;
+    padding:22px;
+    box-shadow:0 12px 30px rgba(0,0,0,0.2);
+}
+
+h2{
+    margin:0 0 14px;
+    color:#0c4070;
+}
+
+label{
+    display:block;
+    margin:10px 0 6px;
+    font-size:14px;
+    font-weight:700;
+    color:#17324d;
+}
+
+input{
+    width:100%;
+    padding:11px;
+    border:1px solid #c6dff5;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    margin-top:14px;
+    border:none;
+    border-radius:10px;
+    background:#0a84ff;
+    color:#fff;
+    padding:11px;
+    cursor:pointer;
+    font-weight:700;
+}
+
+.message{
+    margin-bottom:12px;
+    border-radius:10px;
+    padding:10px;
+    font-size:13px;
+    display:none;
+}
+
+.ok{background:#d7f7e2;color:#12552a;border:1px solid #b5e7c8;}
+.err{background:#ffe2e2;color:#782323;border:1px solid #f3b6b6;}
+
+.links{
+    margin-top:12px;
+    display:flex;
+    justify-content:space-between;
+    gap:8px;
+    font-size:13px;
+}
+
+.links a{
+    color:#15517f;
+    text-decoration:none;
+}
+</style>
+</head>
+<body>
+    <div class="card">
+        <h2>User Signup</h2>
+        <div id="signupMsg" class="message"></div>
+        <form id="signupForm">
+            <label for="signupName">Full Name</label>
+            <input id="signupName" type="text" placeholder="Your name">
+
+            <label for="signupUsername">Username</label>
+            <input id="signupUsername" type="text" required placeholder="3-32 chars">
+
+            <label for="signupEmail">Email</label>
+            <input id="signupEmail" type="email" placeholder="you@example.com">
+
+            <label for="signupPassword">Password</label>
+            <input id="signupPassword" type="password" required placeholder="minimum 6 chars">
+
+            <button type="submit">Create Account</button>
+        </form>
+
+        <div class="links">
+            <a href="/login">Back to login</a>
+            <a href="/index.html">Home</a>
+        </div>
+    </div>
+    <script src="/signup.js"></script>
+</body>
+</html>

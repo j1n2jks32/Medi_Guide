@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MediGuide Admin Login</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#143f68,#1a6eb1);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+.card{
+    width:100%;
+    max-width:420px;
+    background:rgba(255,255,255,0.96);
+    border-radius:14px;
+    padding:22px;
+    box-shadow:0 12px 30px rgba(0,0,0,0.24);
+}
+
+h2{
+    margin:0 0 14px;
+    color:#133a60;
+}
+
+label{
+    display:block;
+    margin:10px 0 6px;
+    font-size:14px;
+    font-weight:700;
+    color:#17324d;
+}
+
+input{
+    width:100%;
+    padding:11px;
+    border:1px solid #c6dff5;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+
+button{
+    width:100%;
+    margin-top:14px;
+    border:none;
+    border-radius:10px;
+    background:#0f5d97;
+    color:#fff;
+    padding:11px;
+    cursor:pointer;
+    font-weight:700;
+}
+
+.message{
+    margin-bottom:12px;
+    border-radius:10px;
+    padding:10px;
+    font-size:13px;
+    display:none;
+}
+
+.ok{background:#d7f7e2;color:#12552a;border:1px solid #b5e7c8;}
+.err{background:#ffe2e2;color:#782323;border:1px solid #f3b6b6;}
+
+.links{
+    margin-top:12px;
+    display:flex;
+    justify-content:space-between;
+    gap:8px;
+    font-size:13px;
+}
+
+.links a{
+    color:#15517f;
+    text-decoration:none;
+}
+
+.hint{
+    margin-top:10px;
+    font-size:12px;
+    color:#4d6f90;
+}
+</style>
+</head>
+<body>
+    <div class="card">
+        <h2>Admin Login</h2>
+        <div id="adminMsg" class="message"></div>
+        <form id="adminLoginForm">
+            <label for="adminUsername">Admin Username</label>
+            <input id="adminUsername" type="text" required placeholder="admin username">
+
+            <label for="adminPassword">Admin Password</label>
+            <input id="adminPassword" type="password" required placeholder="admin password">
+
+            <button type="submit">Login to Admin</button>
+        </form>
+        <div class="hint">Signup is disabled for admin access.</div>
+
+        <div class="links">
+            <a href="/login">User login</a>
+            <a href="/index.html">Home</a>
+        </div>
+    </div>
+    <script src="/admin/login.js"></script>
+</body>
+</html>

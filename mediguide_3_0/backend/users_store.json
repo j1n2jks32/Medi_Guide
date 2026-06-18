@@ -1,0 +1,301 @@
+{
+  "users": {
+    "ris": {
+      "username": "ris",
+      "password_hash": "scrypt:32768:8:1$oW7rZ1OOFarLipzA$7bca6c65174379bd5db2909fbe07ae783c11e957f57f28ed123734713e1c91d93e5c98cc68c4f7c5628095fc4b24651e79a39b133723c0201f2a261673e7ea29",
+      "created_at": "2026-03-08T11:58:19",
+      "last_login_at": "2026-03-08T12:06:36",
+      "last_profile_update": "2026-03-08T12:36:32",
+      "profile": {
+        "name": "rish",
+        "phone": "+916362206965",
+        "email": "abcd@gmail.com",
+        "age": "22",
+        "gender": "male",
+        "medicines": [
+          {
+            "id": 1772971209864,
+            "name": "chocolate",
+            "time": "17:31",
+            "enabled": true
+          },
+          {
+            "id": 1772971612955,
+            "name": "jyryu",
+            "time": "17:37",
+            "enabled": true
+          },
+          {
+            "id": 1772971739019,
+            "name": "rg,kjrg",
+            "time": "17:39",
+            "enabled": true
+          },
+          {
+            "id": 1772973392676,
+            "name": "rfgeg",
+            "time": "18:07",
+            "enabled": true
+          }
+        ],
+        "created_at": "2026-03-08T11:58:19",
+        "updated_at": "2026-03-08T12:36:32"
+      },
+      "user_id": "f92da1f554554feab6604375fcf2f3cf"
+    },
+    "jhon": {
+      "username": "jhon",
+      "password_hash": "scrypt:32768:8:1$UWOmPkg8VnRjvJqC$515bdee53be231fd99f078cda5f7c5360248b4be27846d7ef81c6be3f5ac701fc591f468d23f0688aa58958d0f03e69cc3d1ce146e049ad87ef313f5f5304a6c",
+      "created_at": "2026-03-08T12:01:39",
+      "last_login_at": "2026-03-08T12:01:43",
+      "last_profile_update": "2026-03-08T12:02:40",
+      "profile": {
+        "name": "jnanesh",
+        "phone": "+916362206965",
+        "email": "rishabhvimal777@gmail.com",
+        "age": "25",
+        "gender": "male",
+        "medicines": [
+          {
+            "id": 1772971360341,
+            "name": "juice",
+            "time": "17:33",
+            "enabled": true
+          }
+        ],
+        "created_at": "2026-03-08T12:01:39",
+        "updated_at": "2026-03-08T12:02:40"
+      },
+      "user_id": "7a8a5992d5dc4877ae94c74def08e7d5"
+    },
+    "jnan": {
+      "username": "jnan",
+      "password_hash": "scrypt:32768:8:1$dMBp8uuktZfVOEo6$886a50e1124a8c58735b0ba5b6ea51b2870cf12b0595d96a919ebdb928bf578be5bf1e6c7158636e702e919f829d64e65db3c3150f61fc091db3ad726519329f",
+      "created_at": "2026-03-08T12:04:24",
+      "last_login_at": "",
+      "last_profile_update": "",
+      "profile": {
+        "name": "jnanesh",
+        "phone": "",
+        "email": "rishabhvimal777@gmail.com",
+        "age": "",
+        "gender": "",
+        "medicines": [],
+        "created_at": "2026-03-08T12:04:24"
+      },
+      "user_id": "23ea097e70954f6ea210aa8c98d4c697"
+    },
+    "haneef": {
+      "user_id": "0cc9893c78c14694b1262bbba970106f",
+      "username": "haneef",
+      "password_hash": "scrypt:32768:8:1$rTYJpd10firPWzsI$fa4faf140687a0639e84ae7fbff50fd62c66ef8bce14651cb7eb120372aa20ff4ec1b9bf832df97efc27ae5df8182c11c7ed207579497282aeca4c88845d7d85",
+      "created_at": "2026-03-08T13:19:15",
+      "last_login_at": "2026-03-10T04:30:49",
+      "last_profile_update": "2026-03-10T04:31:13",
+      "profile": {
+        "name": "Haneef",
+        "phone": "+916362206965",
+        "email": "jnanesh@gmail.com",
+        "age": "22",
+        "gender": "male",
+        "medicines": [
+          {
+            "id": 1772976060403,
+            "name": "chocalate",
+            "time": "18:51",
+            "enabled": true
+          },
+          {
+            "id": 1773045850767,
+            "name": "Take medicine",
+            "time": "14:15",
+            "enabled": true
+          },
+          {
+            "id": 1773046014727,
+            "name": "take med",
+            "time": "14:17",
+            "enabled": true
+          },
+          {
+            "id": 1773117067595,
+            "name": "kjhekrj",
+            "time": "10:02",
+            "enabled": true
+          }
+        ],
+        "created_at": "2026-03-08T13:19:15",
+        "updated_at": "2026-03-10T04:31:13"
+      }
+    },
+    "risha": {
+      "user_id": "72caed572a804fb18e985209a0a63d29",
+      "username": "Risha",
+      "password_hash": "scrypt:32768:8:1$6vyxCepIFJX9OIJW$5db6d50f6edea1b9fbbf3b7bfdb992e0f13d93dd6a40f41a577fb68c8dc2ea1477577a951597003a38a12c61ad21d896c8f7c55c3467d5b83e0cdbc434ae4a56",
+      "created_at": "2026-03-08T14:10:01",
+      "last_login_at": "2026-03-08T14:41:42",
+      "last_profile_update": "2026-03-08T14:42:49",
+      "profile": {
+        "name": "Rishabh",
+        "phone": "+918310375231",
+        "email": "rish@gmail.com",
+        "age": "22",
+        "gender": "male",
+        "medicines": [
+          {
+            "id": 1772979131774,
+            "name": "Chocolate 🍫",
+            "time": "19:43",
+            "enabled": true
+          },
+          {
+            "id": 1772980963883,
+            "name": "Dance",
+            "time": "20:13",
+            "enabled": true
+          }
+        ],
+        "created_at": "2026-03-08T14:10:01",
+        "updated_at": "2026-03-08T14:42:49"
+      }
+    },
+    "fatherabin": {
+      "user_id": "aeb5b7c5a9d74e52ae63247e7139fb71",
+      "username": "fatherAbin",
+      "password_hash": "scrypt:32768:8:1$C0HP3iC2Q0gdOH8E$ddf4df5c9003cbea398b6a5e9f559d4c3ca1242b34948685959b126f45f867c55d3afde2c705c773300e99572c163d730bdf183da5530e52ae6243ecbb68a60f",
+      "created_at": "2026-03-10T04:12:31",
+      "last_login_at": "2026-03-10T04:46:34",
+      "last_profile_update": "2026-03-10T04:47:16",
+      "profile": {
+        "name": "Abin",
+        "phone": "+918149302034",
+        "email": "principal@bmdckoppa.in",
+        "age": "30",
+        "gender": "male",
+        "medicines": [
+          {
+            "id": 1773116292275,
+            "name": "abcd",
+            "time": "13:50",
+            "enabled": true
+          },
+          {
+            "id": 1773118033865,
+            "name": "Take paracetamol 500mg",
+            "time": "10:18",
+            "enabled": true
+          }
+        ],
+        "created_at": "2026-03-10T04:12:31",
+        "updated_at": "2026-03-10T04:47:16"
+      }
+    },
+    "rishabh": {
+      "user_id": "cc21a3b2a17a4464804600703c7d3803",
+      "username": "rishabh",
+      "password_hash": "scrypt:32768:8:1$bXfSMJAMxUZzrP2q$01136c37124953e4e4c11455eda913af465555ef7fca77407200806735694d63428bd8a37773342ca250959f34b5f07ccbaf211858a6a1433916ae3d5cffc10d",
+      "created_at": "2026-04-10T08:23:00",
+      "last_login_at": "2026-04-11T06:30:24",
+      "last_profile_update": "",
+      "profile": {
+        "name": "rish",
+        "phone": "",
+        "email": "nrishi2004@gmail.com",
+        "age": "",
+        "gender": "",
+        "medicines": [],
+        "created_at": "2026-04-10T08:23:00"
+      }
+    }
+  },
+  "reminders": [
+    {
+      "id": "9ccfecdd15a04abda3ec9a3396bd51a5",
+      "user_id": "72caed572a804fb18e985209a0a63d29",
+      "phone": "+918310375231",
+      "medicine": "Chocolate 🍫",
+      "reminder_time": "19:43",
+      "message": "MediGuide Reminder: Take your medicine Chocolate 🍫.",
+      "enabled": true,
+      "created_at": "2026-03-08T14:12:15",
+      "updated_at": "2026-03-08T14:42:49"
+    },
+    {
+      "id": "7da2d45668304fcd8b97b63c0414f5ab",
+      "user_id": "72caed572a804fb18e985209a0a63d29",
+      "phone": "+918310375231",
+      "medicine": "Dance",
+      "reminder_time": "20:13",
+      "message": "MediGuide Reminder: Take your medicine Dance.",
+      "enabled": true,
+      "created_at": "2026-03-08T14:42:49",
+      "updated_at": "2026-03-08T14:42:49"
+    },
+    {
+      "id": "82137584281f4e719636abd336e56dad",
+      "user_id": "0cc9893c78c14694b1262bbba970106f",
+      "phone": "+916362206965",
+      "medicine": "chocalate",
+      "reminder_time": "18:51",
+      "message": "MediGuide Reminder: Take your medicine chocalate.",
+      "enabled": true,
+      "created_at": "2026-03-08T13:21:00",
+      "updated_at": "2026-03-10T04:31:13"
+    },
+    {
+      "id": "a950ffd939ba4cf493d0ba842c1b8379",
+      "user_id": "0cc9893c78c14694b1262bbba970106f",
+      "phone": "+916362206965",
+      "medicine": "Take medicine",
+      "reminder_time": "14:15",
+      "message": "MediGuide Reminder: Take your medicine Take medicine.",
+      "enabled": true,
+      "created_at": "2026-03-09T08:46:29",
+      "updated_at": "2026-03-10T04:31:13"
+    },
+    {
+      "id": "b267c7a8d4964236bc2b6435cb4643e8",
+      "user_id": "0cc9893c78c14694b1262bbba970106f",
+      "phone": "+916362206965",
+      "medicine": "take med",
+      "reminder_time": "14:17",
+      "message": "MediGuide Reminder: Take your medicine take med.",
+      "enabled": true,
+      "created_at": "2026-03-09T08:46:56",
+      "updated_at": "2026-03-10T04:31:13"
+    },
+    {
+      "id": "dbc274129d874459a59a33be785e6db3",
+      "user_id": "0cc9893c78c14694b1262bbba970106f",
+      "phone": "+916362206965",
+      "medicine": "kjhekrj",
+      "reminder_time": "10:02",
+      "message": "MediGuide Reminder: Take your medicine kjhekrj.",
+      "enabled": true,
+      "created_at": "2026-03-10T04:31:10",
+      "updated_at": "2026-03-10T04:31:13"
+    },
+    {
+      "id": "c5ac4e218f784e23b35b27980f45c510",
+      "user_id": "aeb5b7c5a9d74e52ae63247e7139fb71",
+      "phone": "+918149302034",
+      "medicine": "abcd",
+      "reminder_time": "13:50",
+      "message": "MediGuide Reminder: Take your medicine abcd.",
+      "enabled": true,
+      "created_at": "2026-03-10T04:18:16",
+      "updated_at": "2026-03-10T04:47:16"
+    },
+    {
+      "id": "bda34b8884124cf18721409a312e5f80",
+      "user_id": "aeb5b7c5a9d74e52ae63247e7139fb71",
+      "phone": "+918149302034",
+      "medicine": "Take paracetamol 500mg",
+      "reminder_time": "10:18",
+      "message": "MediGuide Reminder: Take your medicine Take paracetamol 500mg.",
+      "enabled": true,
+      "created_at": "2026-03-10T04:47:16",
+      "updated_at": "2026-03-10T04:47:16"
+    }
+  ]
+}

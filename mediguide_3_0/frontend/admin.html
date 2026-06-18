@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MediGuide Admin</title>
+<style>
+:root{
+    --navy:#15355b;
+    --sky:#eaf5ff;
+    --card:#ffffff;
+    --ink:#17324d;
+    --line:#d8e8f8;
+    --blue:#0a84ff;
+}
+
+*{box-sizing:border-box}
+
+body{
+    margin:0;
+    font-family:"Segoe UI",Tahoma,sans-serif;
+    color:var(--ink);
+    background:
+        radial-gradient(circle at 10% -10%, #bee3ff 0, rgba(190,227,255,0) 36%),
+        radial-gradient(circle at 100% 0%, #d6efff 0, rgba(214,239,255,0) 30%),
+        #f4faff;
+}
+
+.wrap{
+    max-width:1100px;
+    margin:0 auto;
+    padding:20px;
+}
+
+.head{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:16px;
+    padding:14px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+}
+
+.links{
+    display:flex;
+    gap:8px;
+}
+
+.links a, .links button{
+    border:none;
+    background:var(--blue);
+    color:#fff;
+    text-decoration:none;
+    padding:9px 12px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:13px;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(4,minmax(0,1fr));
+    gap:12px;
+    margin-top:14px;
+}
+
+.stat{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:14px;
+}
+
+.stat .label{
+    font-size:13px;
+    opacity:.75;
+}
+
+.stat .value{
+    margin-top:6px;
+    font-size:26px;
+    font-weight:700;
+}
+
+.panel{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:14px;
+    margin-top:12px;
+}
+
+.chips{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+}
+
+.chip{
+    background:var(--sky);
+    border:1px solid #cde5ff;
+    border-radius:999px;
+    padding:6px 10px;
+    font-size:12px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:13px;
+}
+
+th,td{
+    border-bottom:1px solid var(--line);
+    text-align:left;
+    padding:8px 6px;
+    vertical-align:top;
+}
+
+th{
+    color:#35597d;
+    background:#f9fcff;
+}
+
+@media (max-width:900px){
+    .grid{grid-template-columns:repeat(2,minmax(0,1fr));}
+}
+
+@media (max-width:640px){
+    .grid{grid-template-columns:1fr;}
+    .head{flex-direction:column;align-items:flex-start;}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+    <div class="head">
+        <div>
+            <div style="font-size:22px;font-weight:700;">MediGuide Admin Dashboard</div>
+            <div style="font-size:13px;opacity:.8;">Live monitoring for recommendations and assistant sessions.</div>
+        </div>
+        <div class="links">
+            <a href="/index.html">General</a>
+            <button id="refreshBtn">Refresh</button>
+            <button id="adminLogoutBtn" style="background:#d64045;">Logout</button>
+        </div>
+    </div>
+
+    <div class="grid">
+        <div class="stat"><div class="label">Total Requests</div><div class="value" id="totalReq">0</div></div>
+        <div class="stat"><div class="label">Assistant Sessions</div><div class="value" id="assistantSessions">0</div></div>
+        <div class="stat"><div class="label">Emergency Cases</div><div class="value" id="emergencyCount">0</div></div>
+        <div class="stat"><div class="label">Registered Users</div><div class="value" id="totalUsers">0</div></div>
+        <div class="stat"><div class="label">Last Refresh (UTC)</div><div class="value" id="lastRefresh">-</div></div>
+    </div>
+
+    <div class="panel">
+        <h3 style="margin:0 0 10px;">Source Distribution</h3>
+        <div class="chips" id="sourceChips"></div>
+    </div>
+
+    <div class="panel">
+        <h3 style="margin:0 0 10px;">Severity Distribution</h3>
+        <div class="chips" id="severityChips"></div>
+    </div>
+
+    <div class="panel">
+        <h3 style="margin:0 0 10px;">Registered Users</h3>
+        <div style="overflow:auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                        <th>Gender/Age</th>
+                        <th>Medicines</th>
+                        <th>Registered</th>
+                        <th>Last Login</th>
+                    </tr>
+                </thead>
+                <tbody id="registeredUsers"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="panel">
+        <h3 style="margin:0 0 10px;">Recent Recommendations</h3>
+        <div style="overflow:auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time (UTC)</th>
+                        <th>Channel</th>
+                        <th>Symptoms</th>
+                        <th>Disease</th>
+                        <th>Severity</th>
+                        <th>Source</th>
+                    </tr>
+                </thead>
+                <tbody id="recentRecommendations"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="panel">
+        <h3 style="margin:0 0 10px;">Recent Assistant Sessions</h3>
+        <div style="overflow:auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time (UTC)</th>
+                        <th>Complaint</th>
+                        <th>Questions</th>
+                        <th>Disease</th>
+                        <th>Severity</th>
+                        <th>Source</th>
+                    </tr>
+                </thead>
+                <tbody id="recentAssistant"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<script src="/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+symptoms,disease,medicine,advice
+fever cough cold,Common Cold,Paracetamol,Drink fluids and rest
+high fever body pain,Viral Fever,Paracetamol,Rest and hydrate
+headache nausea,Migraine,Ibuprofen,Avoid light and stress
+joint pain stiffness,Arthritis,Pain Reliever,Warm compress
+leg pain muscle,Muscle Strain,Paracetamol,Rest and warm compress
+chest pain breathing,Heart Emergency,None,Seek emergency help
+stomach pain vomiting,Gastric Issue,Antacid,Avoid spicy food
+eye pain redness,Eye Infection,Eye Drops,Rest eyes and consult doctor
+weakness fatigue tired,General Weakness,Multivitamins,Ensure proper nutrition and sleep
+weakness dizzy pale,Anemia,Iron Supplements,Eat iron-rich foods and consult doctor
+weakness dry mouth,Dehydration,ORS,Drink plenty of fluids
+weakness stress anxiety,Stress Fatigue,Stress Management,Practice meditation and get proper sleep
+weakness after fever,Post-Viral Fatigue,Rest and Nutrition,Gradual return to activity with protein-rich diet
+weakness poor appetite,Nutritional Deficiency,B-Complex Vitamins,Eat balanced diet with proteins and vitamins

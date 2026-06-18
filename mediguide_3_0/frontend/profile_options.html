@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MediGuide Profile Access</title>
+<style>
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:linear-gradient(135deg,#2b9cff,#5dc3ff);
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px;
+}
+
+.card{
+    width:100%;
+    max-width:420px;
+    background:rgba(255,255,255,0.96);
+    border-radius:14px;
+    padding:22px;
+    box-shadow:0 12px 30px rgba(0,0,0,0.2);
+    text-align:center;
+}
+
+h2{margin:0 0 10px;color:#0c4070;}
+p{margin:0 0 18px;color:#35597d;}
+
+a{
+    display:block;
+    text-decoration:none;
+    padding:12px;
+    border-radius:10px;
+    margin-bottom:10px;
+    font-weight:700;
+}
+
+.login{background:#0a84ff;color:#fff;}
+.signup{background:#0f5d97;color:#fff;}
+.home{background:#e8f3ff;color:#1b4f78;}
+</style>
+</head>
+<body>
+    <div class="card">
+        <h2>Profile Access</h2>
+        <p>Please login or create an account to access your dashboard.</p>
+        <a class="login" href="/login?next=/dashboard">Login</a>
+        <a class="signup" href="/signup?next=/dashboard">Sign Up</a>
+        <a class="home" href="/index.html">Back to Home</a>
+    </div>
+</body>
+</html>

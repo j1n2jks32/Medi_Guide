@@ -1,0 +1,7 @@
+flask
+requests
+pandas
+scikit-learn
+selenium
+webdriver-manager
+apscheduler
